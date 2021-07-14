@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.navbar-nav{
+  flex-direction: row;
+}
+.navbar-nav .nav-item .nav-link {
+  margin-right: 8px;
+}
+section{
+  margin: 100px 0px;
+}
+img{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+}
+.home{
+  width: 100%;
+  padding:0px 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: linear-gradient(lightpink,#000000BF);
+  color:white;
+}
+.font_show_left{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.font_show_left h1{
+  margin-bottom: 15px;
+}
+.font_show_right img{
+  max-width: 100%;
+  padding: 50px 0px;
+}
+.Exp_btn{
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0px;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s;
+}
+.Exp_btn:hover{
+  background: black;
+}
+#background{
+  background-image: radial-gradient(#fff,#ffd6d6);
+  
+}
+.col-md-4{
+  width: 230px;
+  margin-bottom: 20px;
+}
+.col-md-4 img{
+  width: 100%;
+  box-shadow: 7px 8px 15px 0px #000000BF;
+  transition: 0.3s;
+}
+.col-md-4 img:hover{
+  box-shadow: none;
+}
