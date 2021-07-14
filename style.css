@@ -98,13 +98,50 @@ p{
  border:1px solid #bbb; 
  text-align: center;
   padding: 15px;
+  margin-right:10px;
+  transition: 0.3s;
+}
+.user_box:hover{
+  border-top-right-radius: 26px;
+  border-bottom-color: red;
 }
 
 .user_box .rating i{
   font-size: 15px;
-  color: yellow;
+  color:  #FF9D03C9;
+  margin-bottom: 10px;
 }
 .user_box i {
   font-size: 50px;
   color: #ff5200;
+  margin-bottom: 10px;
+}
+.user_box p{
+  color: #555;
+}
+.pepople{
+  width:70px;
+  height:70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.ext_padding{
+  padding: 0px 50px;
+}
+.ext_padding .col-md-3{
+  width: 164px;
+  margin: 20px auto;
+}
+.ext_padding .col-md-3 img{
+  cursor: pointer;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+.ext_padding .col-md-3:hover img{
+  filter: grayscale(0);
+}
+.footer{
+  background: black;
 }
